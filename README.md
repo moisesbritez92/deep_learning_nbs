@@ -40,5 +40,8 @@ docker compose build
 - `docker-compose.yml`: Orquestación de servicios
 
 ---
-
+```powershell
+docker exec -it tf-gpu-jupyter bash
+```
+___
 ¡Explora, experimenta y aprende Deep Learning de forma sencilla y reproducible!
