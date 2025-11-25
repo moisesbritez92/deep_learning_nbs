@@ -15,4 +15,6 @@ Notebooks/logs_resnet50
 Notebooks/logs_inceptionv3
 Notebooks/logs_mobilenetv2
 Notebooks/logs_custom_cnn
+.venv/
+models/
 
