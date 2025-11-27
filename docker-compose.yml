@@ -10,11 +10,12 @@ services:
     volumes:
       - ./Notebooks:/tf
     working_dir: /tf
+   # Si es que no esta conectado a una GPU o si la portatil no esta conectada a la corriente, comentar las siguientes lineas
     deploy:
-      resources:
-        reservations:
-          devices:
-            - capabilities: [gpu]
+       resources:
+         reservations:
+           devices:
+             - capabilities: [gpu]
     command: >
       bash -c "jupyter notebook
       --ip=0.0.0.0
