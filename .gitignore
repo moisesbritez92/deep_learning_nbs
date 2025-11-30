@@ -14,8 +14,11 @@ Notebooks/logs_vgg16
 Notebooks/logs_resnet50
 Notebooks/logs_inceptionv3
 Notebooks/logs_mobilenetv2
+Notebooks/checkpoints_mobilenet
 Notebooks/logs_custom_cnn
 Notebooks/02 - CNN-Cards
 .venv/
 models/
-
+Notebooks/CNN-Cards/Datasets/
+Notebooks/CNN-Cards/more_cartas/
+Notebooks/DL-HW-1/scRNA_Complete_Homework_solution_files
