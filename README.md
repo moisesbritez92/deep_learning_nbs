@@ -43,4 +43,4 @@ docker compose build
 ```powershell
 docker exec -it tf-gpu-jupyter bash
 ```
-
+Queda abierto también el puerto 6006 para TensorBoard.
