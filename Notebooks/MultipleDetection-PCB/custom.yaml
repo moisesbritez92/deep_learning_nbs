@@ -1,0 +1,6 @@
+train: Data/train
+val: Data/val
+
+nc: 6
+
+names: ['1-open', '2-short', '3-mousebite', '4-spur', '5-copper', '6-pin-hole']
